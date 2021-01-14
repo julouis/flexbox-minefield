@@ -10,10 +10,11 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: grey;
+    min-width: 600px;
 }
 
 main {
-    border: 7px double rgb(65, 59, 59);
+    border: 10px inset rgb(155, 142, 142);
     width: 434px;
     background-color: lightgray;
 }
@@ -65,11 +66,77 @@ main {
     background-position-y: center;
 }
 
+.none.rep1 {
+    outline: 6px outset grey;
+    outline-offset: -6px;
+    color: transparent;
+}
+
+.none.rep1:hover {
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: PressStart2P;
+    color: blue;
+    font-size: 2em;
+}
+
+.none.rep2 {
+    outline: 6px outset grey;
+    outline-offset: -6px;
+    color: transparent;
+}
+
+.none.rep2:hover {
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: PressStart2P;
+    color: green;
+    font-size: 2em;
+}
+
+.none.rep3 {
+    outline: 6px outset grey;
+    outline-offset: -6px;
+    color: transparent;
+}
+
+.none.rep3:hover {
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: PressStart2P;
+    color: red;
+    font-size: 2em;
+}
+
+.none.bomb {
+    outline: 6px outset grey;
+    outline-offset: -6px;
+    color: transparent;
+    background-image: none;
+}
+
+.none.bomb:hover {
+    outline: none;
+    background-image: url(bomb-solid.svg);
+    background-size: 2.2em;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
 .none {
     outline: 6px outset grey;
     outline-offset: -6px;
+    color: transparent;
+    background-image: none;
 }
 
-.none:active {
-    display: none;
+.none:hover {
+    outline: none;
 }
