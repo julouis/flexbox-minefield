@@ -1,5 +1,5 @@
 
-# BeCode Training Exercice
+# BeCode HTML&CSS Training Exercice
 ## Reproduce the design from the Windows popular game Minesweeper 
 
 [Click to see the project !](https://julouis.github.io/flexbox-minefield/)
@@ -9,5 +9,3 @@
 [Link to the instructions](https://github.com/becodeorg/LIE-Jepsen-4.27/tree/master/01-the-field/04-html-css/02-css/01-flexbox)
 
 
-
-Reproduce the design of a Minesweeper game
