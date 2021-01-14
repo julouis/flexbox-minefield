@@ -1,0 +1,75 @@
+@font-face {
+    font-family: PressStart2P;
+    src: url(PressStart2P-Regular.ttf);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: grey;
+}
+
+main {
+    border: 7px double rgb(65, 59, 59);
+    width: 434px;
+    background-color: lightgray;
+}
+
+.line {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell {
+    border: 3px dotted rgb(0, 0, 0);
+    width: 50px;
+    height: 50px;
+    margin: -1px;
+}
+
+.rep1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: PressStart2P;
+    color: blue;
+    font-size: 2em;
+}
+
+.rep2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: PressStart2P;
+    color: green;
+    font-size: 2em;
+}
+
+.rep3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: PressStart2P;
+    color: red;
+    font-size: 2em;
+}
+
+.bomb {
+    background-image: url(bomb-solid.svg);
+    background-size: 2.2em;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.none {
+    outline: 6px outset grey;
+    outline-offset: -6px;
+}
+
+.none:active {
+    display: none;
+}
